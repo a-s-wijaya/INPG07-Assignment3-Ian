@@ -1,0 +1,46 @@
+body {
+    font-family: 'Poppins' !important;
+}
+
+.bg-navy {
+    background-color: #000535;
+}
+
+.navy {
+    color: #000535;
+}
+
+.box {
+    border-bottom: 6px solid #000535;
+    border-right: 5px solid #000535;
+    border-left: 1px solid #000535;
+    border-top: 1px solid #000535;
+}
+
+button {
+    background-color: #000535 !important;
+}
+
+#loading {
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid #f3f3f3;
+    border-top: 6px solid #000535;
+    border-radius: 100%;
+    margin: auto;
+    visibility: hidden;
+    animation: spin 1s infinite linear;
+}
+
+#loading.display {
+    visibility: visible;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
