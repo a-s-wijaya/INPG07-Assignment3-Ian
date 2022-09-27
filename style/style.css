@@ -61,6 +61,10 @@ button {
     visibility: visible;
 }
 
+#inputResult {
+    text-transform: capitalize;
+}
+
 @keyframes spin {
     from {
         transform: rotate(0deg);
