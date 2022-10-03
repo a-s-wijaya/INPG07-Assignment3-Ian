@@ -35,13 +35,14 @@ function hideLoading() {
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '',
+        'X-RapidAPI-Key': 'YOUR_API_KEY',
         'X-RapidAPI-Host': 'covid-193.p.rapidapi.com'
     }
 };
 
-console.log(today)
-
+function loadCountry(){
+    searchInput.value = 'Indonesia'
+}
 
 function searchControl (){
     displayLoading()
